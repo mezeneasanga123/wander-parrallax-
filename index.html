@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b2528">
+  <meta name="description" content="WANDER / An immersive, scroll-driven journey from the first light of dawn through a living forest to the stars. An original parallax experience by Meyene.">
+  <title>WANDER — A Journey Through the Wild</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-progress" aria-hidden="true"><span id="page-progress-bar"></span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Wander home"><span class="brand-mark">✳</span> WANDER<span class="brand-period">.</span></a>
+    <span class="header-center">A SCROLL-DRIVEN EXPERIENCE &nbsp;—&nbsp; VOL. 01</span>
+    <nav class="header-nav" aria-label="Main navigation">
+      <a href="#chapter-one">THE JOURNEY</a>
+      <a href="#behind-the-scenes">HOW IT WORKS</a>
+      <a class="nav-circle" href="#end" aria-label="Jump to end">↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- CHAPTER 00: A multi-plane landscape, every image moves at its own speed. -->
+    <section class="parallax-scene scene-dawn" id="home" data-scene="0" aria-label="Chapter zero: first light">
+      <div class="scene-sticky">
+        <div class="scene-sky dawn-sky" aria-hidden="true"></div>
+        <div class="sun-glow parallax-layer" data-speed="0.07" data-x="0.01" aria-hidden="true"></div>
+        <div class="sun-disc parallax-layer" data-speed="0.11" data-x="0.018" aria-hidden="true"></div>
+        <div class="cloud cloud-one parallax-layer" data-speed="0.05" data-x="-0.015" aria-hidden="true"></div>
+        <div class="cloud cloud-two parallax-layer" data-speed="0.09" data-x="0.03" aria-hidden="true"></div>
+        <div class="cloud cloud-three parallax-layer" data-speed="0.14" data-x="-0.022" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.035" src="assets/dawn-back.svg" alt="" aria-hidden="true">
+        <div class="atmosphere morning-mist parallax-layer" data-speed="0.045" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.09" src="assets/dawn-middle.svg" alt="" aria-hidden="true">
+        <img class="landscape-layer parallax-layer" data-speed="0.16" src="assets/dawn-trees.svg" alt="" aria-hidden="true">
+        <div class="dawn-birds parallax-layer" data-speed="0.2" data-x="0.06" aria-hidden="true">
+          <svg viewBox="0 0 160 80" width="160" height="80"><g stroke="#213f49" fill="none" stroke-linecap="round" stroke-width="3"><path d="M13 41q14-13 29 1q12-12 25-1"/><path d="M81 23q11-10 22 1q13-9 24 0" stroke-width="2"/><path d="M108 58q8-7 15 0q9-6 17 1" stroke-width="2"/></g></svg>
+        </div>
+        <div class="hero-copy parallax-layer" data-speed="-0.035" data-x="0">
+          <p class="kicker hero-eyebrow"><span class="kicker-line"></span> AN INVITATION TO SLOW DOWN</p>
+          <h1>THE<br>WORLD<br><em>IS WILD.</em></h1>
+          <p class="hero-description">Leave the noise behind.<br>Follow the light. Find your own way.</p>
+          <a href="#chapter-one" class="pill-link">BEGIN EXPLORING <span aria-hidden="true">↗</span></a>
+        </div>
+        <img class="landscape-layer layer-front parallax-layer" data-speed="0.235" src="assets/dawn-front.svg" alt="" aria-hidden="true">
+        <div class="scene-shade" aria-hidden="true"></div>
+        <div class="scene-footer"><span>01 / FIRST LIGHT</span><span class="scroll-invite">SCROLL TO DESCEND <span class="down-arrow">↓</span></span><span>48° N &nbsp; / &nbsp; IMAGINED TERRITORY</span></div>
+      </div>
+    </section>
+
+    <section class="story-panel story-panel-one" id="chapter-one" aria-labelledby="chapter-one-title">
+      <div class="panel-number reveal">01 <span>—</span> 03</div>
+      <div class="story-panel-grid">
+        <div class="panel-main reveal">
+          <p class="kicker dark-kicker">A LITTLE FURTHER, A LITTLE QUIETER</p>
+          <h2 id="chapter-one-title">Take the<br><em>long way</em><br>around.</h2>
+        </div>
+        <div class="panel-aside reveal">
+          <div class="small-compass" aria-hidden="true"><span>N</span><svg viewBox="0 0 100 100" width="94" height="94"><circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" opacity=".35"/><path d="M50 14L58 50L50 86L42 50Z" fill="none" stroke="currentColor"/><circle cx="50" cy="50" r="4" fill="currentColor"/></svg></div>
+          <p>There is something beautiful about taking a step without knowing exactly where it leads. The world opens up when you move through it slowly enough to notice.</p>
+          <span class="panel-signature">A NOTE FROM THE TRAIL <span>↗</span></span>
+        </div>
+      </div>
+      <div class="panel-divider" aria-hidden="true"><span>THE FOREST IS CALLING</span><span>↓</span></div>
+    </section>
+
+    <!-- CHAPTER 01: Forest layers, light shafts, motes and independently drifting leaves. -->
+    <section class="parallax-scene scene-forest" id="forest" data-scene="1" aria-label="Chapter one: into the canopy">
+      <div class="scene-sticky">
+        <div class="scene-sky forest-sky" aria-hidden="true"></div>
+        <div class="forest-light forest-light-one parallax-layer" data-speed="0.04" aria-hidden="true"></div>
+        <div class="forest-light forest-light-two parallax-layer" data-speed="0.09" aria-hidden="true"></div>
+        <div class="forest-orb parallax-layer" data-speed="0.045" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.05" src="assets/forest-back.svg" alt="" aria-hidden="true">
+        <div class="forest-fog parallax-layer" data-speed="0.08" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.12" src="assets/forest-middle.svg" alt="" aria-hidden="true">
+        <div class="forest-motes" data-particles="35" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.19" src="assets/forest-near.svg" alt="" aria-hidden="true">
+        <div class="forest-copy parallax-layer" data-speed="-0.03">
+          <p class="kicker hero-eyebrow"><span class="kicker-line"></span> CHAPTER ONE / THE CANOPY</p>
+          <h2>INTO<br>THE <em>GREEN.</em></h2>
+          <p>Not every destination needs a map.<br>Some places are meant to be felt.</p>
+        </div>
+        <img class="landscape-layer layer-front parallax-layer" data-speed="0.28" src="assets/forest-front.svg" alt="" aria-hidden="true">
+        <div class="scene-shade" aria-hidden="true"></div>
+        <div class="scene-footer"><span>02 / THE CANOPY</span><span class="scroll-invite">KEEP WANDERING <span class="down-arrow">↓</span></span><span>LISTEN TO THE QUIET</span></div>
+      </div>
+    </section>
+
+    <section class="story-panel story-panel-two" id="chapter-two" aria-labelledby="chapter-two-title">
+      <div class="panel-number reveal">02 <span>—</span> 03</div>
+      <div class="story-panel-grid">
+        <div class="panel-main reveal"><p class="kicker dark-kicker">THE BEST THINGS AREN'T RUSHED</p><h2 id="chapter-two-title">Find your<br>own <em>rhythm.</em></h2></div>
+        <div class="panel-aside reveal"><div class="tempo-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><p>A trail, a run, a quiet moment under the trees. Movement has a way of bringing us back to the present. No notifications. No expectations. Just this moment.</p><span class="panel-signature">ONE STEP AT A TIME <span>↗</span></span></div>
+      </div>
+      <div class="panel-divider" aria-hidden="true"><span>FOLLOW THE LAST OF THE LIGHT</span><span>↓</span></div>
+    </section>
+
+    <!-- CHAPTER 02: Twilight ridgelines, starfield, drifting moonlight and aurora. -->
+    <section class="parallax-scene scene-night" id="night" data-scene="2" aria-label="Chapter two: under the stars">
+      <div class="scene-sticky">
+        <div class="scene-sky night-sky" aria-hidden="true"></div>
+        <div class="starfield" data-stars="100" aria-hidden="true"></div>
+        <div class="night-aura parallax-layer" data-speed="0.025" aria-hidden="true"></div>
+        <div class="night-moon parallax-layer" data-speed="0.07" data-x="-0.025" aria-hidden="true"></div>
+        <div class="night-moon-halo parallax-layer" data-speed="0.05" aria-hidden="true"></div>
+        <div class="shooting-star" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.045" src="assets/night-back.svg" alt="" aria-hidden="true">
+        <div class="night-haze parallax-layer" data-speed="0.08" aria-hidden="true"></div>
+        <img class="landscape-layer parallax-layer" data-speed="0.11" src="assets/night-middle.svg" alt="" aria-hidden="true">
+        <img class="landscape-layer parallax-layer" data-speed="0.19" src="assets/night-near.svg" alt="" aria-hidden="true">
+        <div class="night-copy parallax-layer" data-speed="-0.028">
+          <p class="kicker hero-eyebrow"><span class="kicker-line"></span> CHAPTER TWO / AFTER DARK</p>
+          <h2>STAY FOR<br>THE <em>STARS.</em></h2>
+          <p>The sky has a thousand stories.<br>Sometimes all you need to do is look up.</p>
+        </div>
+        <img class="landscape-layer layer-front parallax-layer" data-speed="0.255" src="assets/night-front.svg" alt="" aria-hidden="true">
+        <div class="scene-shade" aria-hidden="true"></div>
+        <div class="scene-footer"><span>03 / AFTER DARK</span><span class="scroll-invite">ONE LAST TURN <span class="down-arrow">↓</span></span><span>LOOK UP, LOOK AROUND</span></div>
+      </div>
+    </section>
+
+    <section class="end-panel" id="end" aria-labelledby="end-title">
+      <div class="end-stars" data-stars="24" aria-hidden="true"></div>
+      <div class="end-inner reveal">
+        <div class="end-symbol" aria-hidden="true">✳</div>
+        <p class="kicker">THE JOURNEY DOESN'T REALLY END</p>
+        <h2 id="end-title">STAY<br><em>CURIOUS.</em></h2>
+        <p>There is always another path, another view, another reason to keep going.</p>
+        <a class="pill-link pill-light" href="#home">TAKE THE JOURNEY AGAIN <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="end-footer"><span>WANDER. / 2026</span><span>AN ORIGINAL PARALLAX EXPERIENCE</span><span>DESIGNED &amp; CODED BY MEYENE</span></div>
+    </section>
+
+    <section class="behind-panel" id="behind-the-scenes" aria-labelledby="behind-title">
+      <p class="kicker dark-kicker">A PEEK UNDER THE HOOD</p>
+      <h2 id="behind-title">Made to <em>move.</em></h2>
+      <p>This experience was crafted with original vector landscapes, HTML, CSS, and vanilla JavaScript. Each visual layer moves at a different rate as you scroll, creating depth without any external animation libraries.</p>
+      <div class="behind-stats">
+        <div><strong>03</strong><span>Distinct environments</span></div>
+        <div><strong>30+</strong><span>Depth and atmosphere layers</span></div>
+        <div><strong>00</strong><span>External JS libraries</span></div>
+      </div>
+      <a href="#home" class="text-link">BACK TO THE BEGINNING ↗</a>
+      <p class="credit">AN INDEPENDENT CREATIVE EXPERIMENT BY <strong>MEYENE</strong> · MADE FOR THE LIMELIGHTR PARALLAX TASK</p>
+    </section>
+  </main>
+</body>
+</html>
